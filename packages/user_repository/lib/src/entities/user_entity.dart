@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 class MyUserEntity {
-  final String userId;
-  final String email;
-  final String name;
-  final bool hasActiveCart;
+  String userId;
+  String email;
+  String name;
+  bool hasActiveCart;
 
   MyUserEntity({
     required this.userId,

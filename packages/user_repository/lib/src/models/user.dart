@@ -1,10 +1,10 @@
 import 'package:user_repository/src/entities/entities.dart';
 
 class MyUser {
-  final String userId;
-  final String email;
-  final String name;
-  final bool hasActiveCart;
+  String userId;
+  String email;
+  String name;
+  bool hasActiveCart;
 
   MyUser({
     required this.userId,
